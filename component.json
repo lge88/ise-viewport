@@ -7,9 +7,6 @@
   "dependencies": {
     "lge88/three-build": "*"
   },
-  "local": [
-    "canvas2d-context"
-  ],
   "development": {
     "lge88/arr-gen": "*",
     "lge88/expect.js": "*"
