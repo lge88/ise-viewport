@@ -5,8 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "lge88/three-build": "*",
-    "component/emitter": "*"
+    "lge88/three-build": "*"
   },
   "local": [
     "canvas2d-context"
