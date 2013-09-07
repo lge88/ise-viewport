@@ -1,0 +1,39 @@
+{
+  "name": "ise-viewport",
+  "repo": "lge88/ise-viewport",
+  "description": "ise-viewport",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "lge88/three-build": "*",
+    "component/emitter": "*"
+  },
+  "local": [
+    "canvas2d-context"
+  ],
+  "development": {
+    "lge88/arr-gen": "*",
+    "lge88/expect.js": "*"
+  },
+  "scripts": [
+    "lib/index.js",
+    "lib/controls.js",
+    "_ise_/ise-paths.js",
+    "_ise_/rename.js",
+    "_ise_/build/build-template.js",
+    "_ise_/build/auto-update-index.js",
+    "_ise_/build/build-stylus.js",
+    "_ise_/build/index.js",
+    "_ise_/build/build-uglify.js",
+    "_ise_/build/auto-update-file-list.js"
+  ],
+  "main": "lib/index.js",
+  "paths": [
+    "/home/GL/Develop/js",
+    "/home/GL/Develop/js/ise/lib",
+    "/home/GL/Develop/js/ise/lib-client"
+  ],
+  "styles": [
+    "lib/index.css"
+  ]
+}

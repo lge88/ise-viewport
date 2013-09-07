@@ -1,0 +1,38 @@
+{
+  "name": "ar-tracker",
+  "repo": "lge88/ar-tracker",
+  "description": "ar-tracker",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "lge88/expect.js": "*"
+  },
+  "scripts": [
+    "lib/index.js"
+  ],
+  "main": "lib/index.js",
+  "_rename_": [
+    "component.json",
+    "Makefile",
+    "examples/index.html",
+    "examples/main.js",
+    "examples/main.css",
+    "test/index.html",
+    "test/test.js"
+  ],
+  "_ise_paths_": [
+    "lib",
+    "lib-client"
+  ],
+  "_auto_update_file_list_": {
+    "folders": [
+      "lib"
+    ]
+  },
+  "_auto_index_files_": [],
+  "paths": [
+    "/home/GL/Develop/js/ise/lib",
+    "/home/GL/Develop/js/ise/lib-client"
+  ]
+}
