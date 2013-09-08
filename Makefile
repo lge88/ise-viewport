@@ -11,7 +11,7 @@ ifeq ($(UNAME), Darwin)
 endif
 
 build: components $(SRC) component.json
-	@(node bin/build.js && touch components)
+	@(node _ise_/build && touch components)
 
 ise-viewport.js: components
 	@component build --standalone ise-viewport --name ise-viewport --out .
@@ -23,7 +23,7 @@ clean:
 	rm -fr build components template.js
 
 component.json: $(SRC)
-	@node bin/add-files.js
+	@node _ise_/build/auto-update-file-list
 
 test: build
 	$(OPEN) test/index.html
