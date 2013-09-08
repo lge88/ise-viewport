@@ -21,6 +21,15 @@
       "lib"
     ]
   },
+  "_rename_": [
+    "component.json",
+    "Makefile",
+    "examples/index.html",
+    "examples/main.js",
+    "examples/main.css",
+    "test/index.html",
+    "test/test.js"
+  ],
   "styles": [
     "lib/index.css"
   ],
