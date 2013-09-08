@@ -2,9 +2,7 @@ var ISEViewport = require( 'ise-viewport' );
 var arrgen = require( 'arr-gen' );
 var THREE = require( 'three' );
 
-var container = document.getElementById( 'main' );
-var viewport = ISEViewport( { container: container } );
-// var viewport = ISEViewport();
+var viewport = ISEViewport();
 
 var renderer = viewport.renderer;
 var scene = viewport.scene;
