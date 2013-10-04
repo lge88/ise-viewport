@@ -7,7 +7,9 @@ var viewport = ISEViewport();
 var renderer = viewport.renderer;
 var scene = viewport.scene;
 var camera = viewport.camera;
-var workplane = viewport.workplane;
+var workplane = new THREE.GridHelper( 500, 25 );
+viewport.sceneHelpers.add( workplane );
+
 var clock = new THREE.Clock();
 var cubes = [];
 

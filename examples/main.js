@@ -4,13 +4,14 @@ var THREE = require( 'three' );
 // var arrgen = require( 'arr-gen' );
 
 var container = document.getElementById( 'main' );
-var viewport = ISEViewport( { container: container } );
+var viewport = ISEViewport( { container: container, grid: true, canvas2D: false } );
 // var viewport = ISEViewport();
 
 var renderer = viewport.renderer;
 var scene = viewport.scene;
 var camera = viewport.camera;
-var workplane = viewport.workplane;
+var workplane = viewport.grid;
+// viewport.sceneHelpers.add( workplane );
 var clock = new THREE.Clock();
 var cubes = randomCubes( 100 );
 
@@ -18,9 +19,9 @@ cubes.forEach( function( c ) { scene.add( c ); } );
 
 clock.start();
 renderer.setClearColor( 0xdddddd );
-window.onresize = function() {
-  viewport.handleResize();
-};
+// window.onresize = function() {
+//   viewport.handleResize();
+// };
 
 var vel = new THREE.Vector3();
 

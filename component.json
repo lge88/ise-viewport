@@ -5,7 +5,9 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "lge88/three-build": "*"
+    "lge88/three-build": "*",
+    "lge88/extend": "*",
+    "lge88/raf": "*"
   },
   "development": {
     "lge88/three-random-cubes": "*",
