@@ -4,7 +4,7 @@ var THREE = require( 'three' );
 // var arrgen = require( 'arr-gen' );
 
 var container = document.getElementById( 'main' );
-var viewport = ISEViewport( { container: container, grid: true, canvas2D: false } );
+var viewport = ISEViewport( { container: container, grid: true, canvas2D: true } );
 // var viewport = ISEViewport();
 
 var renderer = viewport.renderer;

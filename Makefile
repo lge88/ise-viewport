@@ -29,6 +29,6 @@ test: build
 	$(OPEN) test/index.html
 
 demo: build
-	$(OPEN) examples/index.html
+	$(OPEN) examples/random-cube-animate/index.html
 
 .PHONY: clean ise-viewport.js test
